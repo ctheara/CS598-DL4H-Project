@@ -23,7 +23,7 @@ Group 91: Abilash Bodapati, Sneha Sarpotdar, Sotheara Chea
     *   `/content/drive/MyDrive/mimiciv/2.2/hosp/diagnoses_icd.csv.gz`
 
 #### Mount Notebook to Google Drive
-```sh
+```
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
 ````
@@ -37,7 +37,7 @@ drive.mount('/content/drive', force_remount=True)
 !pip install --upgrade scikit-learn
 !pip install --upgrade datasets
 ```
-```sh
+```python
 from google.colab import drive
 import pandas as pd
 from datetime import datetime
