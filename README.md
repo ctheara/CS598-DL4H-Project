@@ -25,7 +25,7 @@ Group 91: Abilash Bodapati, Sneha Sarpotdar, Sotheara Chea
 * scikit-learn==0.24.2
 
  ## Model
-Model Architecture:   Considering the code limitations, we decided to change the plan and implement below models from [Hugging face](https://huggingface.co/docs/hub/en/transformers) to train MIMICIV subset data with ICD codes and Visit date tokenization :
+Here is the Github link for the [Paper's Model code](https://github.com/whaleloops/TransformEHR/blob/main/icdmodelbart.py).  The code was not reproducible due to missing Datacollator. Model Architecture:   Considering the code limitations, we decided to change the plan and implement below models from [Hugging face](https://huggingface.co/docs/hub/en/transformers) to train MIMICIV subset data with ICD codes and Visit date tokenization :
 * BERT (Bidirectional Encoder Representations from Transformers)
 * BART (Bidirectional Encoder and left-to-right Decoder from Transformers)   
 
